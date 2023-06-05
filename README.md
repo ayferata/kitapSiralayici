@@ -17,7 +17,7 @@ public class Main {
         for(Book o :books){
             System.out.println(o.getBookName());
         }
-        System.out.println("*********************");
+        System.out.println(" * ");
 
         TreeSet<Book> books2 = new TreeSet<>(new Comparator<Book>() {
             @Override
