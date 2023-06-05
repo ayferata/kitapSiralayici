@@ -1,6 +1,4 @@
 # kitapSiralayici
-package KitapSiralayici;
-
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Iterator;
