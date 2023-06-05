@@ -10,11 +10,11 @@ public class Main {
     public static void main(String[] args) {
         TreeSet<Book> books = new TreeSet<>();
 
-        books.add(new Book("Veba Geceleri",544,"Orhan Pamuk",2021));
-        books.add(new Book("Var Mısın?",320,"Doğan Cüceloğlu",2021));
-        books.add(new Book("Sefiller",1724,"Viktor Hugo",1862));
-        books.add(new Book("Türklerin Tarihi",608,"İlber Ortaylı",2015));
-        books.add(new Book("Otomatik Portakal",176,"Anthony Burgess",1961));
+        books.add(new Book("Veba Geceleri","Orhan Pamuk",2021));
+        books.add(new Book("Var Mısın?","Doğan Cüceloğlu",2021));
+        books.add(new Book("Sefiller","Viktor Hugo",1862));
+        books.add(new Book("Türklerin Tarihi","İlber Ortaylı",2015));
+        books.add(new Book("Otomatik Portakal","Anthony Burgess",1961));
 
         for(Book o :books){
             System.out.println(o.getBookName());
